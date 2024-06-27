@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+svg {
+    height: 40px;
+    fill: red;
+}
+
+main .bgimg{
+    background-image: url(images/main_img.jpg);
+    height: 50em;
+    /* height: auto; */
+    opacity: 40%;
+    background-position: center;
+}
+
+nav{
+    width: 75vw;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 11.5vw;
+    padding-top: 1.8vh;
+}
+
+.signinbt{
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.selection{
+    background: transparent;
+    color: white;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.selection option{
+    color: black;
+}
+
+.maintext{
+    width: 100vw;
+    position: absolute;
+    top: 18em;
+    color: white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.main_firstline{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.main_secondline{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1vw;
+}
+
+.main_thirdline{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
+
+#inputemail{
+    background: transparent;
+    height: 3rem;
+    width: 25rem;
+    color: white;
+    padding-left: 20px;
+}
+
+.getstarted{
+    background-color: red;
+    color: white;
+    height : 3.5rem;
+    width: 12rem;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.mainbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vw;
+}
+
+.break{
+    background-color: rgb(35, 35, 35);
+    height: 0.5rem;
+}
+
+.secondslide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    flex-wrap: wrap;
+}
+
+.secslidetext{
+    color: white;
+    margin-right: 5em;
+}
+
+.secimgbox img{
+    height: 25rem;
+    width: 33rem;
+    position: relative;
+    z-index: 10;
+}
+
+.secimgbox video{
+    position: absolute;
+    right: 0;
+    height: 25rem;
+    width: 28.5rem;
+    z-index: -1;
+
+}
+
+.secimgbox{
+    position: relative;
+}
+
+.second_firstline{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.second_secondline{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.second_thirdline{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.thirdslide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    /* padding-left: 12vw;
+    padding-right: 10vw; */
+    flex-wrap:wrap-reverse;
+}
+
+.third_firstline{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 2.75rem;
+    font-weight: 900;
+}
+
+.third_secondline{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.thirdimgbox img{
+    height: 25rem;
+    width: 35rem;
+    /* margin-right: 50px; */
+}
+
+.thirdimgbox{
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.thirdimgupper{
+    position: absolute;
+    height: 6rem;
+    width: 20rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* right: 0; */
+    bottom: 20px;
+    /* left: 19em;
+    top: 109rem; */
+}
+
+.boxshotimg img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.thirduppertext{
+    display: flex;
+    flex-direction: column;
+}
+
+.thirduppertext :first-child{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.thirduppertext :nth-child(2){
+    color: #0071eb;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.downloadimg img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.thirdslidetext{
+    /* padding-left: 8em; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 550px;
+}
+
+.fourimgbox video{
+    height: 12rem;
+    width: 34rem;
+    top: 44px;
+}
+
+.fiveslidetext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* align-items: flex-start; */
+    width: 550px;
+}
+
+.fiveimgbox img{
+    height: 25rem;
+    width: 33rem;
+}
+
+.fiveslide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5.5em;
+    flex-wrap:wrap-reverse;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq h2{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.faqbox{
+    /* height: 50px; */
+    width: 70vw;
+    background-color: #2d2d2d;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 18px;
+    margin: 6px;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+}
+
+.faqbox h3{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight:400;
+}
+
+.faqline{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.faqbuttons{
+    margin-bottom: 80px;
+}
+
+footer{
+    color: #a8b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    
+}
+
+.containfooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 150px;
+}
+
+a{
+    color: #a8b3b3;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width : 1270px){
+    .media_text_centre{
+        text-align: center;
+    } 
+}
+
+@media screen and (max-width : 700px){
+    nav {
+        width: 100vw;
+        padding-left: 0;
+        justify-content: space-around;
+    }
+
+    svg {
+        height: 3vh;
+    }
+
+    .selection{
+        width: 65px;
+        margin-right: 0;
+    }
+
+    .signinbt{
+        width: 65px;
+    }
+
+    .maintext{
+        top: 9em;
+    }
+
+    .main_firstline {
+        font-size: 2rem;
+    }
+
+    .mainbuttons{
+        flex-direction: column;
+    }
+
+    #inputemail{
+        width: 20rem;
+    }
+
+    .getstarted{
+        margin: 20px;
+    }
+
+    main .bgimg {
+        height: 38em;
+    }
+
+    .media_no_padding{
+        padding: 35px 10px;
+    }
+
+    .secslidetext {
+        margin-right: 0;
+    }
+
+    .media_small_image img {
+        height: 18rem;
+        width: 20rem;
+    }
+
+    .secimgbox video{
+        height: 17rem;
+        width: 17.25rem;
+    }
+
+    .media_small_heading{
+        font-size: 1.75rem;
+    }
+
+    .media_small_line{
+        font-size: 16px;
+    }
+
+    .fourimgbox video{
+        height: 7rem;
+        width: 20.5rem; 
+    }
+
+    .thirdimgupper{
+        height: 4rem;
+        width: 15rem;
+    }
+
+    .boxshotimg img{
+        height: 42px;
+        width: 32px;
+    }
+
+    .downloadimg img{
+        height: 50px;
+        width: 40px;
+    }
+
+    .footer{
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .containfooter{
+        padding: 0 20px;
+    }
+}
